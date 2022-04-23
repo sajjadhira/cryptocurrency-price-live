@@ -10,8 +10,8 @@ const Home = () => {
 
   const { preloader, data, isError, error, isFetching, refetch } = useFetech({
     key: ["pairs", "allprice"],
-    url: endpoint + "api/v3/ticker/price",
-    interval: 1,
+    url: "api/v3/ticker/price",
+    interval: 5000,
   });
 
   // console.log(data);
@@ -43,7 +43,7 @@ const Home = () => {
                       //console.log(pair);
 
                       return (
-                        <tr>
+                        <tr key={pair.symbol}>
                           <td>{pair.symbol}</td>
                           <td>{pair.price}</td>
                         </tr>
