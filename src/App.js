@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import { ImSpinner2 } from "react-icons/im";
 import { Routes, Route, Link } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "react-query";
 

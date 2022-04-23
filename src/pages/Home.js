@@ -10,10 +10,11 @@ const Home = () => {
 
   const { preloader, data, isError, error, isFetching, refetch } = useFetech({
     key: ["pairs", "allprice"],
-    url: endpoint,
+    url: "api/v3/ticker/price",
+    interval: 1,
   });
 
-  console.log(data);
+  // console.log(data);
   return (
     <>
       <div className="container">
@@ -29,7 +30,28 @@ const Home = () => {
           <Col md={12}>
             <Card>
               <h4 className="mt-2">Pair Prices</h4>
-              <Table></Table>
+              <div className="table-responsive">
+                <Table striped>
+                  <thead>
+                    <tr>
+                      <th>Pair</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {data?.data.map((pair) => {
+                      //console.log(pair);
+
+                      return (
+                        <tr>
+                          <td>{pair.symbol}</td>
+                          <td>{pair.price}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </Table>
+              </div>
             </Card>
           </Col>
         </Row>

@@ -13,7 +13,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--brand-color-deep);
+  background: var(--brand-color);
 }
 
 /* Handle */
@@ -23,7 +23,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--brand-color);
+  background: var(--brand-color-deep);
 }
 
 body {
