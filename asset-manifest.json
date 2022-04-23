@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cryptocurrency-price-live/static/css/main.304b3e49.css",
-    "main.js": "/cryptocurrency-price-live/static/js/main.18f3de9d.js",
+    "main.js": "/cryptocurrency-price-live/static/js/main.d0cf5698.js",
     "index.html": "/cryptocurrency-price-live/index.html",
     "main.304b3e49.css.map": "/cryptocurrency-price-live/static/css/main.304b3e49.css.map",
-    "main.18f3de9d.js.map": "/cryptocurrency-price-live/static/js/main.18f3de9d.js.map"
+    "main.d0cf5698.js.map": "/cryptocurrency-price-live/static/js/main.d0cf5698.js.map"
   },
   "entrypoints": [
     "static/css/main.304b3e49.css",
-    "static/js/main.18f3de9d.js"
+    "static/js/main.d0cf5698.js"
   ]
 }
