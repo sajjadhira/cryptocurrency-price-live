@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cryptocurrency-price-live/static/css/main.304b3e49.css",
+    "main.js": "/cryptocurrency-price-live/static/js/main.fe1ca6da.js",
+    "index.html": "/cryptocurrency-price-live/index.html",
+    "main.304b3e49.css.map": "/cryptocurrency-price-live/static/css/main.304b3e49.css.map",
+    "main.fe1ca6da.js.map": "/cryptocurrency-price-live/static/js/main.fe1ca6da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.304b3e49.css",
+    "static/js/main.fe1ca6da.js"
+  ]
+}
