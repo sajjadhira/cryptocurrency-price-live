@@ -29,6 +29,7 @@ const Home = () => {
         <Row className="mt-5">
           <Col md={12}>
             <Card>
+              {isError ? error : null}
               <h4 className="mt-2">Pair Prices</h4>
               <div className="table-responsive">
                 <Table striped>
